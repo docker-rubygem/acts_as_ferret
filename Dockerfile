@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.3.1
+ENV VERSION=0.4.0
 
 RUN gem install acts_as_ferret --version ${VERSION} --no-format-exec
 
